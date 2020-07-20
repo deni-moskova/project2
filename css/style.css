@@ -65,7 +65,15 @@ a { text-decoration: none; }
 
 .main .container .welcome blockquote span { background-color: #4a555d;}
 .main .services { background-color: #4bcaff; }
-.main .services table { margin-top: 100px; }
+.main .services table { padding: 100px 0; }
+.main .services table tr th { font-size: 24px; line-height:28px; text-align: left; text-transform: uppercase;  padding-bottom: 15px; }
+.main .services table tr th .table-icon { padding-bottom:20px; font-size: 0; line-height: 0; text-indent: -999px; font-weight: 400;   display: block;  background-repeat: no-repeat; background-position: 0 0; width: 58px; height: 56px; }
+.main .services table tr th .table-icon.coffee { background-image: url(images/ico-coffee.png);  }
+.main .services table tr th .table-icon.instant {background-image: url(images/ico-camera.png);}
+.main .services table tr th .table-icon.serious {background-image: url(images/ico-snap.png);}
+.main .services table tr th .table-icon.frame {background-image: url(images/ico-picture.png); }
 
+
+.main .services table tr td { font-size: 12px; line-height: 16px; }
 /*main*/
 
