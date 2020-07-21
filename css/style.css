@@ -40,9 +40,9 @@
 
 body { font-family: 'Segoe UI'; font-weight: 600; color: #fff; font-size: 14px; line-height: 18px; background-color: #515f67; }
 h2 { text-transform: uppercase; font-weight: 300; position: relative; padding-top: 45px;}
-h2:after { content: ''; position: absolute; display: block; bottom: -9px; left: 0; width: 45px; height: 2px; background-color: #fff;  }
+h2:after { content: ''; position: absolute; display: block; bottom: -9px; left: 0; width: 45px; height: 2px; background-color: #fff; }
 ul { list-style: none outside none; }
-a { text-decoration: none; }
+a { text-decoration: none; color: #fff; }
 .container { width: 1170px; margin: 0 auto; }
 
 /*header*/
@@ -72,8 +72,30 @@ a { text-decoration: none; }
 .main .services table tr th .table-icon.instant {background-image: url(images/ico-camera.png);}
 .main .services table tr th .table-icon.serious {background-image: url(images/ico-snap.png);}
 .main .services table tr th .table-icon.frame {background-image: url(images/ico-picture.png); }
-
-
 .main .services table tr td { font-size: 12px; line-height: 16px; }
+/*Portfolio*/
+.main .portfolio { background-color: #fff; color: #515f67; }
+.main .portfolio .container section { display: flex; justify-content: space-between; padding: 75px 0; }
+.main .portfolio .container section > h2 { padding-top: 0; }
+.main .portfolio .container section > h2:after { background-color: #515f67; }
+.main .portfolio .container ul li{ display: inline; padding-left: 40px; }
+.main .portfolio .container ul li > a { color:#515f67; text-transform: uppercase; font-weight: bold; }
+.main .portfolio .container ul li > a:hover { color: #4bcaff; border: 2px solid #4bcaff; padding: 6px 18px;  }
+.main .portfolio .gallery { display: flex; flex-wrap: wrap;   }
+.main .portfolio .gallery .gallery-image { background-position: 0 0; background-repeat: no-repeat; width: 270px; height: 270px; /*display: inline-grid;*/ padding:10px; }
+.main .portfolio .gallery .gallery-image.img-1 { background-image: url(images/gallery/picture-1.jpg); }
+.main .portfolio .gallery .gallery-image.img-2 { background-image: url(images/gallery/picture-2.jpg); }
+.main .portfolio .gallery .gallery-image.img-3 { background-image: url(images/gallery/picture-3.jpg); }
+.main .portfolio .gallery .gallery-image.img-4 { background-image: url(images/gallery/picture-4.jpg); }
+.main .portfolio .gallery .gallery-image.img-5 { background-image: url(images/gallery/picture-5.jpg); }
+.main .portfolio .gallery .gallery-image.img-6 { background-image: url(images/gallery/picture-6.jpg); }
+.main .portfolio .gallery .gallery-image.img-7 { background-image: url(images/gallery/picture-7.jpg); }
+.main .portfolio .gallery .gallery-image.img-8 { background-image: url(images/gallery/picture-8.jpg); }
+/*Default*/
+.main .default { overflow: hidden; }
+.main .default .container p { padding-top: 30px; width: 50%;}
+.main .default .container .bottom-margin { margin-bottom: 35px; }
+.main .default .container .video-holder { float: right; }
+.main .default .btn { text-transform: uppercase; padding: 12.5px 38px; border: 2px solid #353f46; color: #353f46; }
 /*main*/
 
