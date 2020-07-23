@@ -43,6 +43,7 @@ h2 { text-transform: uppercase; font-weight: 300; position: relative; padding-to
 h2:after { content: ''; position: absolute; display: block; bottom: -9px; left: 0; width: 45px; height: 2px; background-color: #fff; }
 ul { list-style: none outside none; }
 a { text-decoration: none; color: #fff; }
+p { padding-top: 25px; }
 .container { width: 1170px; margin: 0 auto; }
 
 /*header*/
@@ -97,5 +98,13 @@ a { text-decoration: none; color: #fff; }
 .main .default .container .bottom-margin { margin-bottom: 35px; }
 .main .default .container .video-holder { float: right; }
 .main .default .btn { text-transform: uppercase; padding: 12.5px 38px; border: 2px solid #353f46; color: #353f46; }
+.main .default .btn:hover {border-color:  #fff; color: #fff; }
+/*Twitter*/
+.main .twitter { background-color: #4bcaff; color: #fff; }
+.main .twitter p { padding: 20px 0; font-size: 24px; line-height: 28px; font-weight: 400;  }
+.main .twitter .container .tagged { font-weight: bold; }
+.main .twitter .container .twitter-logo { background: url(images/twitter-logo.png) no-repeat 0 0; float: right; }
+
+
 /*main*/
 
