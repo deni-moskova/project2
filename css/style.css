@@ -43,7 +43,7 @@ h2 { text-transform: uppercase; font-weight: 300; position: relative; padding-to
 h2:after { content: ''; position: absolute; display: block; bottom: -9px; left: 0; width: 45px; height: 2px; background-color: #fff; }
 ul { list-style: none outside none; }
 a { text-decoration: none; color: #fff; }
-p { padding-top: 25px; }
+p { padding-top: 30px; }
 .container { width: 1170px; margin: 0 auto; }
 
 /*header*/
@@ -96,15 +96,46 @@ p { padding-top: 25px; }
 .main .default { overflow: hidden; }
 .main .default .container p { padding-top: 30px; width: 50%;}
 .main .default .container .bottom-margin { margin-bottom: 35px; }
-.main .default .container .video-holder { float: right; }
+.main .default .container .video-holder { float: right; padding-bottom: 80px;}
 .main .default .btn { text-transform: uppercase; padding: 12.5px 38px; border: 2px solid #353f46; color: #353f46; }
 .main .default .btn:hover {border-color:  #fff; color: #fff; }
 /*Twitter*/
-.main .twitter { background-color: #4bcaff; color: #fff; }
-.main .twitter p { padding: 20px 0; font-size: 24px; line-height: 28px; font-weight: 400;  }
-.main .twitter .container .tagged { font-weight: bold; }
-.main .twitter .container .twitter-logo { background: url(images/twitter-logo.png) no-repeat 0 0; float: right; }
-
+.main .twitter-section { background-color: #4bcaff; color: #fff; }
+.main .twitter-section p { padding: 20px 0; font-size: 24px; line-height: 28px; font-weight: 400;  }
+.main .twitter-section .container .tagged { font-weight: bold; }
+.main .twitter-section .container .twitter-logo { background: url(images/twitter-logo.png) no-repeat 0 0; float: right; width: 29px; height: 22px; font-size: 0; line-height: 0; text-indent: -999px;}
+/*john-doe*/
+.main .john-doe { background: url(images/camera-cover-photo.jpg) no-repeat 0 0/cover; width: 100%; height: 505px;  }
+.main .john-doe h2 { padding-top: 90px; }
+.main .john-doe p { font-weight: normal;   }
+.main .john-doe .container .columns { columns: 2; } 
+.main .john-doe .social-list { padding-top: 29px; }
+.main .john-doe .social-list li { display: inline-block; padding-left: 20px; }
+.main .john-doe .social-list li .social{ background-repeat: no-repeat; background-position:center; width: 35px; height: 32px; display: block; font-size: 0; line-height: 0; text-indent: -999px; border: 2px solid #fff; padding: 15px;}
+.main .john-doe .social-list li .social.twitter { background-image: url(images/social/twitter.png); }
+.main .john-doe .social-list li .social.gplus { background-image: url(images/social/googleplus.png); }
+.main .john-doe .social-list li .social.dribbble { background-image: url(images/social/dribbble.png); }
+.main .john-doe .social-list li .social.coffee { background-image: url(images/social/coffee.png); }
+/*testimonials*/
+.main .testimonials { background-color: #fff; color: #515f67;  }
+.main .testimonials p{font-size: 28px; line-height: 45px; font-weight: 300; font-weight: 300;}
+.main .testimonials h2:after { background-color: #515f67;}
+.main .testimonials .quote-icon { float: right; background: url(images/quotes.png) no-repeat; width: 33px; height: 26px; font-size: 0; line-height: 0; text-indent: -999px; position: absolute; top: 40px; right: 0;  }
+.main .testimonials .small-text { color: #4bcaff; font-size: 14px; line-height: 18px; font-weight: bold; padding-bottom: 80px;  }
+/*contact*/
+.main .contact { background: url(images/contacts-cover.jpg) no-repeat 0 0/cover; width: 100%; height: 814px; }
+.main .contact .container .contact-form { padding-top: 30px; display: flex; flex-flow: column; width: 75%; }
+.main .contact .container .contact-form label { padding-top: 35px; }
+.main .contact .container .contact-form input { height: 55px; width: 50%; }
+.main .contact .container .contact-form input, textarea { border: 2px solid #fff; background-color: transparent; box-sizing: border-box; }
+.main .contact .container  .btn-message { background-color: #4bcaff; color: #fff; padding: 16px 0; display: block; margin-top: 40px; text-align: center; width: 50%;}
 
 /*main*/
 
+
+/*footer*/
+.footer {  padding: 70px 0; background-color: #353f47; color: #515f67; }
+.footer .container { display: flex; justify-content: space-between; align-items: center;}
+.footer .container a{ color: #515f67; }
+.footer .container .footer-menu li { display: inline-block; padding-left: 24px;position: relative;  }
+.footer .container .footer-menu li+li:after { content: '|'; display: block; position: absolute; top: 0; left: 12px;  }
