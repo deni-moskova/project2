@@ -130,6 +130,8 @@ p { padding-top: 30px; }
 .main .contact .container .contact-form input { height: 55px; width: 50%; }
 .main .contact .container .contact-form input, textarea { border: 2px solid #fff; background-color: transparent; box-sizing: border-box; }
 .main .contact .container  .btn-message { background-color: #4bcaff; color: #fff; padding: 16px 0; display: block; margin-top: 40px; text-align: center; width: 50%;}
+.main .contact .container .contact-form .text-right {display: flex; justify-content: space-between; flex-direction: column; }
+.main .contact .container .contact-form section { width: 50%; }
 
 /*main*/
 
